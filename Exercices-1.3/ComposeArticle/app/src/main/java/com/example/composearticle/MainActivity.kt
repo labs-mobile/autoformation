@@ -77,12 +77,12 @@ private fun ArticleCard(
         Text(
             text = title,
             modifier = Modifier.padding(16.dp),
-            fontSize = 24.sp
+            fontSize = 20.sp
         )
         Text(
             text = shortDescription,
-            modifier = Modifier.padding(start = 16.dp, end = 16.dp),
-            textAlign = TextAlign.Justify
+            modifier = Modifier.padding(start = 10.dp, end = 5.dp),
+            textAlign = TextAlign.Center
         )
         Text(
             text = longDescription,
